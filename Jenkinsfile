@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build Java Application') {
             steps {
-                bat 'javac hello.java'
+                bat 'javac Helloworld.java'
             }
         }
 
         stage('Run Java Program') {
             steps {
-                bat 'java hello'
+                bat 'java Helloworld'
             }
         }
 
